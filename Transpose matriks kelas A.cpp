@@ -18,4 +18,6 @@ int main(){
       transMatrix [j][i] = matrix [i][j];
     }
   }
+   cout << "Matrix :" << endl;
+   
    
