@@ -9,15 +9,18 @@ int main(){
    
    cout << "Enter elements of matrix :" << endl;
    for(int i = 0; i < row; i++) {
-     for(int j = 0; j < col; j++) {
+      for(int j = 0; j < col; j++) {
        cin >> matrix [i][j];
      }
    }
    for(int i = 0; i < row; i++) {
-    for(int j = 0; j < col; j++) {
+      for(int j = 0; j < col; j++) {
       transMatrix [j][i] = matrix [i][j];
     }
   }
    cout << "Matrix :" << endl;
+  for(int i = 0; i < col; i++) {
+     for(int j = 0; j < row; j++){
+        
    
    
