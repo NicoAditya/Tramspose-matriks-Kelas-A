@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
    int matrix [10][10], transMatrix [10][10], row, col;
@@ -21,6 +21,8 @@ int main(){
    cout << "Matrix :" << endl;
   for(int i = 0; i < col; i++) {
      for(int j = 0; j < row; j++){
+        cout << matrix [i][j] << " ";
+        
         
    
    
