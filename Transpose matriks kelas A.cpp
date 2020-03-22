@@ -22,6 +22,10 @@ int main(){
   for(int i = 0; i < col; i++) {
      for(int j = 0; j < row; j++){
         cout << matrix [i][j] << " ";
+        if( j == row-1)
+           cout << endl;
+     }
+  }
         
         
    
