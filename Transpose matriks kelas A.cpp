@@ -26,7 +26,26 @@ int main(){
            cout << endl;
      }
   }
-        
+   
+   cout<<"Transpose Matrix: "<<endl;
+  for(int i=0;i<col;i++) {
+    for(int j=0;j<row;j++) {
+      cout<<*(transMatrix[i]+j)<<" ";
+      if(j==row-1)
+        cout<<endl;
+    }
+  }
+  cout<<"Lokasi Transpose Matrix: "<<endl;
+  for(int i=0;i<col;i++) {
+    for(int j=0;j<row;j++) {
+      cout<<&(transMatrix[i][j])<<" ";
+      if(j==row-1)
+        cout<<endl;
+    }
+  }
+
+  return 0;
+}      
         
    
    
