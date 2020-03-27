@@ -30,7 +30,7 @@ int main(){
    cout<<"Transpose Matrix: "<<endl;
   for(int i=0;i<col;i++) {
     for(int j=0;j<row;j++) {
-      cout<<*(transMatrix[i]+j)<<" ";
+      cout<<*(*(transMatrix+ i)+j)<<" ";
       if(j==row-1)
         cout<<endl;
     }
